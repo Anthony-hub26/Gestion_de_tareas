@@ -6,17 +6,7 @@ def mostrar_menu():
     print("2. Listar tareas")
     print("3. Mostrar progreso")
     print("4. Salir")
-<<<<<<< HEAD
 
-def listar_tareas():
-    for tarea in tareas:
-        print(
-            tarea["nombre"],
-            tarea["completada"]
-        )
-=======
-<<<<<<< HEAD
-    
 def agregar_tarea():
     nombre = input("Tarea: ")
     tarea = {
@@ -24,7 +14,13 @@ def agregar_tarea():
         "completada": False
     }
     tareas.append(tarea)
-=======
+
+def listar_tareas():
+    for tarea in tareas:
+        print(
+            tarea["nombre"],
+            tarea["completada"]
+        )
 
 def mostrar_progreso():
     total = len(tareas)
@@ -41,5 +37,3 @@ def mostrar_progreso():
         completadas * 100 / total
     )
     print(porcentaje, "%")
->>>>>>> main
->>>>>>> main
