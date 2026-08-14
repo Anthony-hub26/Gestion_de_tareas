@@ -38,8 +38,4 @@ def mostrar_progreso():
     )
     print(porcentaje, "%")
 
-<<<<<<< HEAD
-print("GESTOR DE TAREAS DEL EQUIPO")
-=======
-print("SISTEMA DE ORGANIZACIÓN DE TAREAS")
->>>>>>> 74b0198 (Estudiante B)
+print("SISTEMA DE GESTIÓN DE TAREAS DEL EQUIPO")
