@@ -7,7 +7,7 @@ def mostrar_menu():
     print("3. Mostrar progreso")
     print("4. Salir")
 
-    def listar_tareas():
+def listar_tareas():
     for tarea in tareas:
         print(
             tarea["nombre"],
