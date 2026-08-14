@@ -37,3 +37,5 @@ def mostrar_progreso():
         completadas * 100 / total
     )
     print(porcentaje, "%")
+
+print("GESTOR DE TAREAS DEL EQUIPO")
